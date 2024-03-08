@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 500, 800;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: var(--yellow);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    box-shadow: 10px 10px;
+}
+
+header {
+    margin-top: 30px;
+}
+
+header>#learning {
+    font-weight: 800;
+    background-color: var(--yellow);
+    width: 6rem;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+header>img {
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+}
+
+main>h1 {
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    text-align: start;
+    font-size: 1.7rem;
+}
+
+#main-p {
+    color: var(--grey);
+    text-align: start;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    margin: 25px;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+footer>img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 60px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+}
+
+footer>#greg {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 250px;
+    }
+
+    header>img {
+        width: 200px;
+    }
+}
+
+@media (min-width: 376px) and (max-width:768px) {
+    .container {
+        width: 300px;
+        margin: 30px;
+        padding: 10px;
+    }
+
+    header>img {
+        width: 250px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .container {
+        width: 350px;
+    }
+
+    header>img {
+        width: 300px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1440px) {
+    .container {
+        width: 400px;
+    }
+
+    header>img {
+        width: 350px;
+    }
+}
