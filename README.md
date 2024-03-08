@@ -10,7 +10,7 @@ To use the "Blog-Preview-Card-Main" component in your project, simply copy the H
 - Responsive design: Ensures optimal viewing experience across different devices and screen sizes.
 - Scalable layout: Easily customizable to accommodate additional content or styling preferences.
 - Easy integration: Simple HTML structure allows for effortless integration into existing web projects.
-- 
+
 
 
 ## 📷 Screenshots 
